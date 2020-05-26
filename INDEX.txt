@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>document</title>
+</head>
+<body style="background-color:powder;">
+<center><h1><b>WELCOME TO MY HOMEPAGE</b></h1></center>
+<center><h2><b><i>upload a resume</i></b></h2></center>
+<center><h2>select file to upload:</h2></center>
+</body>
+<center><form action="res.html">
+    <label style="choose file"></label>
+    <input type="file" name="filename">
+    <input type="submit">
+</form>
+</center>
+</html>

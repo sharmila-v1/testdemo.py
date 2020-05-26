@@ -1,0 +1,21 @@
+from selenium import webdriver
+import time
+from selenium.webdriver.common.keys import Keys
+driver = webdriver.Chrome('C:\Windows\chromedriver(1).exe')
+driver.get('https://www.easyclass.com')
+primary_in_button = driver.find_element_by_id('loginBtnspan')
+primary_in_button.click()
+time.sleep(4)
+username = driver.find_element_by_class_name('email')
+username.send_Keys("sharmivijay212@gmail.com")
+password = driver.find_element_by_name('password')
+password.send_Keys("sharmi@12")
+log_in_button = driver.find_element_by_name('submit')
+log_in_button.click()
+
+
+time.sleep(5)
+driver.quit()
+
+
+
